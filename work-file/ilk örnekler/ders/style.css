@@ -1,0 +1,18 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	height: 2000px;
+}
+.navbar ul li a{
+	color: #fff !important;
+}
+
+.content{
+	height: 350px;
+}
+.footer .conteiner .card{
+	height: 200px;
+}

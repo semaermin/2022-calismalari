@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fdfdfd;
+    transition: 0.5s all ease;
+}
+.container {
+    width: 50%;
+    margin: 5rem auto;
+    text-align: center;
+}
+.dark-container {
+    position: fixed;
+    bottom: 5rem;
+    left: 5rem;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#222831;
+}
+.fa-adjust{
+    font-size: 1.5rem;
+    color: #f0f0f0;
+}

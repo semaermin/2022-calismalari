@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #454545;
+}
+
+html{
+    height: 100%;
+    background: rgb(0,95,115);
+    background: linear-gradient(90deg, rgba(0,95,115,1) 0%, rgba(10,147,150,1) 100%);
+}
+
+.container{
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #EAEDED;
+    border-radius: 15px;
+    padding: 35px 20px;
+}
+
+.container div{
+    margin-top: 30px;
+}
